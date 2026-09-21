@@ -111,8 +111,6 @@ CLOUDFRONT_DOMAIN=<dominio-de-CloudFrontURL> KEY_PAIR_ID=<PublicKeyId> node scri
 
 El dominio se toma del output `CloudFrontURL` (sin `https://`), el ID de llave del output `PublicKeyId`, y el último argumento son los minutos de validez de la URL firmada.
 
-El último argumento son los minutos de validez de la URL firmada. Nota: `scripts/sign-url.js` tiene escrito el dominio de CloudFront del despliegue original. Tras un nuevo despliegue, debe actualizarse con el dominio que aparezca en el output `CloudFrontURL`.
-
 ---
 
 ## 5. Boss Fight
